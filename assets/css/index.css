@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url(../img/sfondo.png);
+}
+
+header {
+     background-image:linear-gradient(1deg, #066A88, #4dd4fd);
+    margin:20px;
+    padding: 30px;
+}
+
+main {
+    background-color: white;
+    margin:20px;
+    padding: 30px;
+}
+main h2{
+    font-size: 1.6em;
+    font-weight: 600;
+}
+main iframe{
+    background-size: cover;
+}
+footer {
+     background-image:linear-gradient(180deg, #005566, #000000);
+    margin:20px;
+    padding: 20px;
+}
+footer p,address, p>a{
+    color: white;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+footer address a {
+    color: violet;
+    font-size: 1.1em;
+}
+
+footer > p{
+    padding: 25px;
+}
+
+header div  img {
+    width: 200px;
+}
+
+.img{
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    margin:20px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+
+nav ul{
+    text-align: center;
+    margin:10px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+}
+
+.fas .fa-vote-yea{
+
+
+}
+.fas .fa-clock{
+
+}
