@@ -4,9 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sviluppo di una pagina web - Blog Epicode</title>
-    <!-- Primi passi operativi per creare un modello di pagina HTML per un
-          post. Scopri come iniziare in modo facile -->
     <link rel="stylesheet" href="assets/css/reset.css" />
+    <!-- è importante mettere prima RESET -->
     <link rel="stylesheet" href="assets/css/index.css" />
     <link
       rel="stylesheet"
@@ -35,17 +34,20 @@
       <main>
         <section>
           <h2>Come creare un template per i post di Mario Rossi</h2>
-          <p><i class="fas fa-vote-yea">di Mario Rossi</i></p>
-          <p><i class="fas fa-clock">publicato il 25-10-2020</i></p>
+          <i class="fas fa-vote-yea"></i>
+          <p class="icon-post">di Mario Rossi</p>
+          <p class="icon-post">-</p>
+          <i class="fas fa-clock"></i>
+          <p class="icon-post">publicato il 25-10-2020</p>
           <br />
-          <p>
+          <p class="first-p">
             La prima cosa da fare è suddividere in blocchi logici la pagina,
             identificando le <strong>parti comuni</strong> da applicare a tutte
             le pagine.
           </p>
           <br />
           <p>Le varie aree saranno quindi suddivise in:</p>
-          <br />
+
           <ul>
             <li>
               Contenuti di intestazionedel tag <code>&lt;header&gt;</code>
@@ -61,9 +63,10 @@
           </ul>
           <br />
           <p>Formattazione del codice</p>
-          <p>
+          <p class="second-p">
             Il testo dell'articolo dovrà essere formattato per identificare
-            tutte le parti da selezionare con i CSS. Perciò i passi saranno:
+            tutte le parti da <strong>selezionare con i CSS.</strong> Perciò i
+            passi saranno:
           </p>
           <br />
           <ol>
